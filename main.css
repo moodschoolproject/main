@@ -1,0 +1,111 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(153, 224, 255);
+}
+
+h1 {
+	text-align: center;
+}
+
+#inputname {
+	width: 25%;
+}
+
+input {
+	text-align: center;
+}
+
+.center {
+	margin: auto;
+}
+
+small {
+	color: gray;
+}
+
+.letter {
+	width: 100px;
+	height: 100px;
+	border: 2px solid white;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 5%;
+	/* border-radius: 20px; */
+}
+
+.letter > img {
+	width: 95%;
+	height: 95%;
+}
+
+.lettercontainer {
+	margin: 5px;
+	display: inline-block;
+	color: white;
+}
+
+.ml-10 {
+	margin-left: 10px !important;
+}
+
+.bg-navbar,
+.btn-translate {
+	background-color: rgb(96, 186, 224);
+}
+
+.space {
+	margin-left: 50px;
+	margin-right: 50px;
+	display: inline-block;
+}
+
+#resultsmorse {
+	overflow-y: scroll;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 75%;
+	height: 12.5%;
+	border: 5px rgb(96, 186, 224) solid;
+	background-color: rgb(255, 255, 255, 0.5);
+	font-size: 25px;
+	text-align: left;
+	padding: 10px;
+}
+
+#light {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 75%;
+	height: 25%;
+	opacity: 0;
+	transition: opacity 0.5s;
+	border: none;
+	border: 5px rgb(96, 186, 224) solid !important;
+	background-color: black;
+}
+
+.lightactive {
+	opacity: 1 !important;
+	/* width: 75% !important;
+	height: 25% !important;
+	border: 5px rgb(96, 186, 224) solid !important;
+	background-color: black;
+	transition: width 0.5s, height 0.5s !important; */
+}
+
+.lighton {
+	background-color: white !important;
+}
+
+.spacer {
+	width: 75%;
+}
